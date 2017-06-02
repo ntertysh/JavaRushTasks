@@ -15,7 +15,11 @@ public class Solution {
         Reader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
+        
         String name = bufferedReader.readLine();
         System.out.println(name + " зарабатывает $5,000. Ха-ха-ха!");
+
+
+
     }
 }
