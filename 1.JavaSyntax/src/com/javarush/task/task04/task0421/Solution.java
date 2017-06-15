@@ -19,7 +19,7 @@ public class Solution {
         if(name1.equals(name2)){
             System.out.println("Имена идентичны");
         }
-        
+
         if (!name1.equals(name2) && name1.length() == name2.length() ) {
             System.out.println("Длины имен равны");
         }
