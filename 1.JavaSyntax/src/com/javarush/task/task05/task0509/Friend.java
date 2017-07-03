@@ -6,20 +6,18 @@ package com.javarush.task.task05.task0509;
 
 public class Friend {
     //напишите тут ваш код
-    String name = "N";
-    int age = 18;
+    String name;
+    int age;
     char sex = 'F';
+
 
     public void initialize(String name)
     {
         this.name = name;
+        this.age = this.age;
+        this.sex = sex;
     }
 
-    public void initialize(String name, int age)
-    {
-        this.name = name;
-        this.age = age;
-    }
 
     public void initialize(String name, int age, char sex)
     {
@@ -30,6 +28,8 @@ public class Friend {
 
     public static void main(String[] args) {
 
-
+        Friend a = new Friend();
+        //a.age++;
+        System.out.println(a.name);
     }
 }
