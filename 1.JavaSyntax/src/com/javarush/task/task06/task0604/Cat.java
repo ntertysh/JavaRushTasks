@@ -9,6 +9,14 @@ public class Cat {
 
     //напишите тут ваш код
 
+    protected void finalize() throws Throwable {
+        catCount --;
+    }
+
+    public Cat(){
+        catCount++;
+    }
+
     public static void main(String[] args) {
 
     }
